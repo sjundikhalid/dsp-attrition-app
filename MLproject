@@ -1,0 +1,7 @@
+name: dsp-attrition-app
+
+entry_points:
+  main:
+    parameters:
+      data_path: {type: str, default: "data/data_full_dsp1.csv"}
+    command: "python modeling.py"
