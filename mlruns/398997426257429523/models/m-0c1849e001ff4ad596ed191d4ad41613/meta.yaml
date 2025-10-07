@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Kuliah/Semester%207/DSP/dsp-attrition-model/mlruns/398997426257429523/models/m-0c1849e001ff4ad596ed191d4ad41613/artifacts
+creation_timestamp: 1759843554913
+experiment_id: '398997426257429523'
+last_updated_timestamp: 1759843569469
+model_id: m-0c1849e001ff4ad596ed191d4ad41613
+model_type: null
+name: model
+source_run_id: 33a6bdea2a94495cae832df0ea117280
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Kuliah/Semester%207/DSP/dsp-attrition-model/mlruns/398997426257429523/33a6bdea2a94495cae832df0ea117280/artifacts
+end_time: 1759843584817
+entry_point_name: ''
+experiment_id: '398997426257429523'
+lifecycle_stage: active
+run_id: 33a6bdea2a94495cae832df0ea117280
+run_name: rf-default-model
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759843554112
+status: 3
+tags: []
+user_id: sunta
