@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 import mlflow
 import mlflow.sklearn
+import dagshub
 from dotenv import load_dotenv
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
@@ -17,6 +18,7 @@ warnings.filterwarnings("ignore")
 load_dotenv()
 
 def run_rf_model_mlflow(df):
+    dagshub.init(repo_owner='sjundikhalid', repo_name='dsp-attrition-app', mlflow=True)
     uri_dagshub = os.getenv("https://dagshub.com/sjundikhalid/dsp-attrition-app.mlflow")
     mlflow.set_tracking_uri(uri_dagshub)
     os.environ['MLFLOW_TRACKING_USERNAME'] = os.getenv("USERNAME")

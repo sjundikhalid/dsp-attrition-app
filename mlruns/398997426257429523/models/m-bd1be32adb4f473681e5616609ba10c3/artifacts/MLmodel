@@ -1,0 +1,55 @@
+artifact_path: file:///C:/Kuliah/Semester%207/DSP/dsp-attrition-model/mlruns/398997426257429523/models/m-bd1be32adb4f473681e5616609ba10c3/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+is_signature_from_type_hint: false
+mlflow_version: 3.4.0
+model_id: m-bd1be32adb4f473681e5616609ba10c3
+model_size_bytes: 2129900
+model_uuid: m-bd1be32adb4f473681e5616609ba10c3
+prompts: null
+run_id: 251921183e584c48a80b17bdacb0389e
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  serving_input_path: serving_input_example.json
+  type: dataframe
+signature:
+  inputs: '[{"type": "long", "name": "Age", "required": true}, {"type": "long", "name":
+    "BusinessTravel", "required": true}, {"type": "long", "name": "DailyRate", "required":
+    true}, {"type": "long", "name": "Department", "required": true}, {"type": "long",
+    "name": "DistanceFromHome", "required": true}, {"type": "long", "name": "Education",
+    "required": true}, {"type": "long", "name": "EducationField", "required": true},
+    {"type": "long", "name": "EnvironmentSatisfaction", "required": true}, {"type":
+    "long", "name": "Gender", "required": true}, {"type": "long", "name": "HourlyRate",
+    "required": true}, {"type": "long", "name": "JobInvolvement", "required": true},
+    {"type": "long", "name": "JobLevel", "required": true}, {"type": "long", "name":
+    "JobRole", "required": true}, {"type": "long", "name": "JobSatisfaction", "required":
+    true}, {"type": "long", "name": "MaritalStatus", "required": true}, {"type": "long",
+    "name": "MonthlyIncome", "required": true}, {"type": "long", "name": "MonthlyRate",
+    "required": true}, {"type": "long", "name": "NumCompaniesWorked", "required":
+    true}, {"type": "long", "name": "OverTime", "required": true}, {"type": "long",
+    "name": "PercentSalaryHike", "required": true}, {"type": "long", "name": "PerformanceRating",
+    "required": true}, {"type": "long", "name": "RelationshipSatisfaction", "required":
+    true}, {"type": "long", "name": "StockOptionLevel", "required": true}, {"type":
+    "long", "name": "TotalWorkingYears", "required": true}, {"type": "long", "name":
+    "TrainingTimesLastYear", "required": true}, {"type": "long", "name": "WorkLifeBalance",
+    "required": true}, {"type": "long", "name": "YearsAtCompany", "required": true},
+    {"type": "long", "name": "YearsInCurrentRole", "required": true}, {"type": "long",
+    "name": "YearsSinceLastPromotion", "required": true}, {"type": "long", "name":
+    "YearsWithCurrManager", "required": true}]'
+  outputs: '[{"type": "double", "name": "Attrition", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-10-06 15:34:06.332191'
